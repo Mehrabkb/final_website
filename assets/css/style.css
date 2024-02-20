@@ -137,3 +137,16 @@ input, select {
     text-decoration : none;
     color : #fff;
 }
+#header .desktop-header .navbar .social-fonts ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end ;
+}
+#header .desktop-header .navbar .social-fonts ul li {
+    padding : 10px;
+}
+#header .desktop-header .navbar .social-fonts ul li a {
+    color : #fff;
+    text-decoration : none;
+
+}
