@@ -10,7 +10,9 @@
      <meta name="robots" content="index" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="assets/images/logo.webp">
+    <link rel="stylesheet" href="assets/progressbar/progresscircle.css">
     <link rel="stylesheet" href="assets/fonts/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="assets/css/style.css" rel="stylesheet">
@@ -159,14 +161,62 @@
                         </p>
                     </div>
             </div>
+            <div class="row">
+                <div class="col-12 links-main">
+                    <p>لینک هایی که میتواند برای شما مفید باشد </p>
+                    <div class="buttons">
+                        <a class="btn btn-primary" href="http://mehrabkordbacheh.ir">
+                            وبلاگ
+                        </a>
+                        <a class="btn btn-primary" href="https://github.com/mehrabkb">
+                            گیت هاب
+                        </a>
+                        <a class="btn btn-primary" href="https://t.me/@mehrabkb">
+                            تلگرام
+                        </a>
+                        <a class="btn btn-primary" href="https://instagram.com/mehrabviolin">
+                            اینستاگرام
+                        </a>
+                    </div> 
+                </div>
+                <div class="col-12 mt-3 skills bg-white">
+                    <h2 class="text-center fs-3 mt-3 bg-white">
+                        توانایی ها 
+                    </h2>
+                    <div class="row ">
+                        <div class="col-md-2 mt-3  col-6 text-center">
+                            <div class="circlechart" data-percentage="95"> Php </div>
+                        </div>
+                        <div class="col-md-2 mt-3  col-6 text-center">
+                            <div class="circlechart" data-percentage="80"> JAVA SCRIPT </div>
+                        </div>
+                        <div class="col-md-2 mt-3  col-6 text-center">
+                            <div class="circlechart" data-percentage="99"> HTML , CSS </div>
+                        </div>
+                        <div class="col-md-2 mt-3  col-6 text-center">
+                            <div class="circlechart" data-percentage="60"> PYTHON </div>
+                        </div>
+                        <div class="col-md-2 mt-3  col-6 text-center">
+                            <div class="circlechart" data-percentage="75"> LINUX </div>
+                        </div>
+                        <div class="col-md-2 mt-3  col-6 text-center">
+                            <div class="circlechart" data-percentage="80"> LARAVEL </div>
+                        </div>
+                        <div class="col-md-2 mt-3  col-6 text-center">
+                            <div class="circlechart" data-percentage="50"> C AND C++ </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="assets/progressbar/progresscircle.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="assets/script/script.js"></script>
     <script>
         AOS.init();
+        $('.circlechart').circlechart();
     </script>
 </body>
-
 </html>

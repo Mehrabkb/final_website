@@ -11,4 +11,5 @@ $(function(){
             icon.addClass('fa-bars');
         }
     });
+    
 })
